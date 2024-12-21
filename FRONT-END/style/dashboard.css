@@ -1,0 +1,77 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 11%, rgba(15,15,141,1) 51%, rgba(17,21,124,1) 80%, rgba(2,0,36,1) 100%);
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.side-bar-cantainer{
+    height: 670px;
+    width: 20%;
+    border-radius: 20px;
+    background: linear-gradient(145deg, rgba(2,0,36,1) 11%, rgba(15,15,141,1) 51%, rgba(2,0,36,1) 100%);
+    color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+    
+}
+
+button{
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    gap: 2%;
+    border: none;
+    background: transparent;
+    color: aliceblue;
+    padding-left: 4%;
+    width: 100%;
+    height: 10%;
+    font-size: larger;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: rgba(71, 69, 69, 0.5);
+    cursor: pointer;
+}
+
+
+.header{
+    color: aliceblue;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dash-content{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    padding: 1%;
+    overflow: auto;
+    gap: 5%;
+}
+
+.dash-element{
+    /* border: 1px solid white; */
+    width: 47%;
+    height: 50%;
+    overflow: auto;
+    border-radius: 30px;
+    /* background: linear-gradient(30deg, rgb(32, 23, 188) 11%, 51%, rgba(5,0,86,1)); */
+    display: flex;
+    background-color: antiquewhite;
+    flex-direction: column;
+    /* padding-left: 2%; */
+    color: black;
+}

@@ -1,0 +1,85 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container, .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px; 
+    /* max-width: 800px;  */
+    padding: 30px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 4px 8px black;
+}
+
+.log-in-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+input {
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.submit {
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #0056b3;
+}
+
+
+.error-messages{
+    color: red;
+}
+
+.dont-have-account {
+    background: none;
+    border: none;
+    font-size: medium;
+    color: #0056b3;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.dont-have-account:hover {
+    color: #007BFF;
+}
+
+.dont-have-account-text {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
